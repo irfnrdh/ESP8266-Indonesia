@@ -6,8 +6,9 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 ## 0. Basic
 - [Pengenalan ESP8266](https://en.wikipedia.org/wiki/ESP8266) 📖 🏴‍☠️
 - [Instalasi Driver CH340 di Windows 10 & Solve port problem tidak terdeteksi](https://www.youtube.com/watch?v=JKciV2dq6Zw) 📹 🏴‍☠️ 
-- Menggunakan Arduino IDE 🏴‍☠️
-- Menggunakan Visual Studio Code dengan Platform.IO 🏴‍☠️
+- [ESP8266 Menggunakan Arduino IDE](https://mechatronicsblog.com/nodemcu-programming-first-steps/) 📖 🏴‍☠️
+- ESP8266 Menggunakan Visual Studio Code dengan Platform.IO 
+- ESP8266 Menggunakan Micropython
 
 ## 1. Web Server  
 - 0.1 – [LED Bawaan Dak-dik-duk (Pertama)](https://github.com/irfnrdh/ESP8266-Indonesia/releases/tag/0.3) 👨‍💻 🏴‍☠️
@@ -55,10 +56,20 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 - 3.8 – Remote Controlled Robot (Bluetooth)
 - 3.9 – Control ESP8266 Outputs (Wi-Fi)
 
+## 5. Blockchain
+- 4.1 – Mining coin dengan Duino-Coin 
+
+## 6. Artificial Intelligence
+- 5.1 – Chatbot
 
 ### Bahan Bacaan :
 - https://randomnerdtutorials.com/projects-esp8266/ (Mantab ne!)
 - https://docs.platformio.org/en/latest/boards/espressif8266/nodemcuv2.html
+- https://github.com/PacktPublishing/Artificial-Intelligence-for-IoT-Cookbook
+
+### Toolkits :
+- https://nodemcu-build.com/index.php
+- 
 
 *** artinya
 - [👨‍💻] SourceCode  
