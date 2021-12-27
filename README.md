@@ -1,7 +1,7 @@
 # ESP8266-Indonesia
 
-Menjelajahi dunia Embeded System, Microcontroller, ESP-12e, ESP8266 sebelum ESP32, NodeMCU 1.0 dari [**KodeTerbuka**](https://www.youtube.com/channel/UCCpWFUmq5cyXxXR-XYwO49As?sub_confirmation=1)  
-Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dimulai 26/12/21 [Newbie]
+Menjelajahi dunia Embeded System, Microcontroller, ESP-12e, ESP8266, NodeMCU 1.0 dari [**KodeTerbuka**](https://www.youtube.com/channel/UCCpWFUmq5cyXxXR-XYwO49As?sub_confirmation=1)   
+sebelum lanjut ke ESP32, Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dimulai 26/12/21 [Newbie]
 
 ## 0. Basic
 - [Pengenalan ESP8266](https://en.wikipedia.org/wiki/ESP8266) 📖 🏴‍☠️
