@@ -60,7 +60,7 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 - 4.1 – Mining coin dengan Duino-Coin 
 
 ## 6. Artificial Intelligence
-- 5.1 – Chatbot
+- 5.1 – Chatbot [X](https://ifttt.com/)
 
 ### Bahan Bacaan :
 - https://randomnerdtutorials.com/projects-esp8266/ (Mantab ne!)
