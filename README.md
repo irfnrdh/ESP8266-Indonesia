@@ -34,9 +34,10 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 - 0.21 – Over-the-air (OTA) Updates for Web Server  
 
 ## 2. Hacking Tools
-- 1.1 – Wifi Deauther
+- 1.1 – Wifi Deauther [👨‍💻](https://github.com/SpacehuhnTech/esp8266_deauther) [👨‍💻](https://github.com/hoangminh5210119/deauther)
 - 1.2 – Bad USB
-- 1.3 – Captive Portal Wifi Phising
+- 1.3 – Bad USB WiFiDuck [👨‍💻](https://github.com/SpacehuhnTech/WiFiDuck)
+- 1.3 – Captive Portal Wifi Phising [👨‍💻](https://github.com/coderdipesh/espfi)
 
 ## 3. Realtime with Firebase
 - 2.1 – Creating a Firebase Project
