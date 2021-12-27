@@ -63,6 +63,9 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 ## 6. Artificial Intelligence
 - 5.1 – Chatbot [X](https://ifttt.com/)
 
+## 7. Protocol
+- 6.1 – MQTT
+
 ### Bahan Bacaan :
 - https://randomnerdtutorials.com/projects-esp8266/ (Mantab ne!)
 - https://docs.platformio.org/en/latest/boards/espressif8266/nodemcuv2.html
