@@ -1,13 +1,26 @@
+// ESP8266 Indonesia
+// oleh @irfnrdh
+// Rilis 0.2
+// Web Server Kontrol LED Bawaan dengan Notif via telegram
+
 // Load Wi-Fi library
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
-
+#include <UniversalTelegramBot.h> 
+#include <ArduinoJson.h>
 
 
 // Replace with your network credentials
-const char* ssid     = "HUAWEI-U6gx";
-const char* password = "whykualasimpang?";
+const char* ssid     = "";
+const char* password = "";
 
+// Initialize Telegram BOT
+#define BOTtoken "" 
+#define CHAT_ID ""
+
+X509List cert(TELEGRAM_CERTIFICATE_ROOT);
+WiFiClientSecure client;
+UniversalTelegramBot bot(BOTtoken, client);
 
 // Set web server port number to 80
 WiFiServer server(80);
@@ -30,6 +43,10 @@ const long timeoutTime = 2000;
 
 void setup() {
   Serial.begin(9600);
+  configTime(0, 0, "pool.ntp.org");      // get UTC time via NTP
+  client.setTrustAnchors(&cert); // Add root certificate for api.telegram.org
+
+
   // Initialize the output variables as outputs
   pinMode(LED_BAWAAN, OUTPUT);
   // Set outputs to LOW
@@ -49,6 +66,9 @@ void setup() {
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
   server.begin();
+
+  bot.sendMessage(CHAT_ID, "EHESPE dimulai", "");
+  bot.sendMessage(CHAT_ID, "busyet dah", "");
 }
 
 void loop(){
@@ -81,10 +101,12 @@ void loop(){
               Serial.println("LED on");
               LEDState = "on";
               digitalWrite(LED_BAWAAN, HIGH);
+              bot.sendMessage(CHAT_ID, "Lampu LED dimatikan!", "");
             } else if (header.indexOf("GET /led/off") >= 0) {
               Serial.println("LED off");
               LEDState = "off";
               digitalWrite(LED_BAWAAN, LOW);
+              bot.sendMessage(CHAT_ID, "Lampu LED dihidupkan!", "");
             } 
             
             // Display the HTML web page
