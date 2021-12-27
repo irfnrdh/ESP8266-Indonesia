@@ -66,6 +66,7 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 - https://randomnerdtutorials.com/projects-esp8266/ (Mantab ne!)
 - https://docs.platformio.org/en/latest/boards/espressif8266/nodemcuv2.html
 - https://github.com/PacktPublishing/Artificial-Intelligence-for-IoT-Cookbook
+- https://hackaday.io/search?term=esp8266
 
 ### Toolkits :
 - https://nodemcu-build.com/index.php
