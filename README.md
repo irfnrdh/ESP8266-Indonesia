@@ -5,7 +5,7 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 
 ## 0. Basic
 - Pengenalan ESP8266 🏴‍☠️
-- [Instalasi Driver CH340 di Windows 10 & Solve port problem tidak terdeteksi](https://www.youtube.com/watch?v=JKciV2dq6Zw) 🏴‍☠️
+- [Instalasi Driver CH340 di Windows 10 & Solve port problem tidak terdeteksi](https://www.youtube.com/watch?v=JKciV2dq6Zw) 📹 🏴‍☠️ 
 - Menggunakan Arduino IDE 🏴‍☠️
 - Menggunakan Visual Studio Code dengan Platform.IO 🏴‍☠️
 
@@ -14,26 +14,47 @@ Semua ujicoba dapat kamu cek langsung di rilis ya! Perjalanan pertama sekali dim
 - 0.2 – [Konek Wi-fi dengan indikator LED (Kedua)](https://github.com/irfnrdh/ESP8266-Indonesia/releases/tag/0.4) 🏴‍☠️
 - 0.3 – [Web Sever Pengontrol Led Bawaan / Control Outputs (ON/OFF Buttons)](https://github.com/irfnrdh/ESP8266-Indonesia/releases/tag/0.1) 🏴‍☠️
 - 0.4 – [Web Server Kontrol LED Bawaan dengan Notif via telegram](https://github.com/irfnrdh/ESP8266-Indonesia/releases/tag/0.2) 🏴‍☠️
-- 0.5 – Web Sever Kontrol LED Bawaan dengan Log di database MySQL & Notif Telegram  
-- 0.6 – Hello World Web Server (Serve Files from Filesystem)     
-- 0.7 – Web Server – Control Multiple Outputs (Toggle Switches)  
-- 0.8 – WebSocket Web Server: Control Outputs (ON/OFF Buttons)  
-- 0.9 – Web Server with Slider: Control LED Brightness (PWM)  
-- 0.10 – WebSocket Web Server: Control Multiple Outputs  
-- 0.11 – Web Server: Display Sensor Readings (SSE)  
-- 0.12 – Web Server: Display Sensor Readings (Table)  
-- 0.13 – Web Server: Display Sensor Readings (Charts)  
-- 0.14 – Web Server: Display Sensor Readings from File (Charts)  
-- 0.15 – Web Server with Input Fields (HTML Form)  
-- 0.16 – HTTP Authentication: Password Protected Web Server  
-- 0.17 – Wi-Fi Manager for Web Server  
-- 0.18 – Multiple Web Pages (with Navigation Bar)  
-- 0.19 – Over-the-air (OTA) Updates for Web Server  
+- 0.5 – Setting ESP8266 Wifi menjadi Static IP Address
+- 0.6 – Setting ESP8266 menjadi sebuah Access Point
+- 0.7 – Web Sever Kontrol LED Bawaan dengan Log di database MySQL & Notif Telegram  
+- 0.8 – Hello World Web Server (Serve Files from Filesystem)     
+- 0.9 – Web Server – Control Multiple Outputs (Toggle Switches)  
+- 0.10 – WebSocket Web Server: Control Outputs (ON/OFF Buttons)  
+- 0.11 – Web Server with Slider: Control LED Brightness (PWM)  
+- 0.12 – WebSocket Web Server: Control Multiple Outputs  
+- 0.13 – Web Server: Display Sensor Readings (SSE)  
+- 0.14 – Web Server: Display Sensor Readings (Table)  
+- 0.15 – Web Server: Display Sensor Readings (Charts)  
+- 0.16 – Web Server: Display Sensor Readings from File (Charts)  
+- 0.17 – Web Server with Input Fields (HTML Form)  
+- 0.18 – HTTP Authentication: Password Protected Web Server  
+- 0.19 – Wi-Fi Manager for Web Server  
+- 0.20 – Multiple Web Pages (with Navigation Bar)  
+- 0.21 – Over-the-air (OTA) Updates for Web Server  
 
-## 2. Hacking Tool
+## 2. Hacking Tools
 - 1.1 – Wifi Deauther
 - 1.2 – Bad USB
 - 1.3 – Captive Portal Wifi Phising
+
+## 3. Realtime with Firebase
+- 2.1 – Creating a Firebase Project
+- 2.2 – Organizing your Database and Database Rules
+- 3.3 – Interacting with the Realtime Database
+- 3.4 – Creating the Firebase Web App
+- 3.5 – Hosting your Web App (Custom Domain Name)
+
+## 4. Android Apps with MIT App Inventor 2
+- 3.1 – LED Controller (Bluetooth)
+- 3.2 – Login Protected LED Controller (Bluetooth)
+- 3.3 – LED Slider (Bluetooth)
+- 3.4 – RGB LED Controller (Bluetooth)
+- 3.5 – Temperature Readings (Bluetooth)
+- 3.6 – Relay Controller With Voice Command (Bluetooth)
+- 3.7 – Send Messages to LCD display (Bluetooth)
+- 3.8 – Remote Controlled Robot (Bluetooth)
+- 3.9 – Control ESP8266 Outputs (Wi-Fi)
+
 
 ### Bahan Bacaan :
 - https://randomnerdtutorials.com/projects-esp8266/ (Mantab ne!)
